@@ -50,7 +50,7 @@ img{
     margin: 2% 0;
     border-radius: 3%;
 }
-.icon{
+.icons > img{
     width: 24px;
     height: 24px;
     margin: 10%;
@@ -71,7 +71,7 @@ img{
     a{text-align: start;}
     .gen_conteiner{margin: 0% 5%;}
     .footer{margin: 0 5%; font-size: 12px;}
-    .icon{width: 16px; height: 16px;}
+    .icons > img{width: 16px; height: 16px;}
     h3{margin: 2% 10%;}
   }
 @media (min-width: 600px) and (max-width: 1024px){
@@ -81,6 +81,6 @@ img{
     a{text-align: start;}
     .gen_conteiner{margin: 0% 5%;}
     .footer{margin: 0 5%; font-size: 12px; flex-direction: row;}
-    .icon{width: 16px; height: 16px;}
+    .icons > img{width: 16px; height: 16px;}
     h3{margin: 2% 10%;}
 }
