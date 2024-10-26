@@ -50,10 +50,20 @@ img{
     margin: 2% 0;
     border-radius: 3%;
 }
-.icons > img{
-    width: 24px;
-    height: 24px;
-    margin: 10%;
+.vk{
+    background-image: url(../pic/free-icon-vk-2111712.png);
+    
+}
+.tg{
+    background-image: url(../pic/free-icon-telegram-2111646.png);
+}
+.whatsapp{
+    background-image: url(../pic/free-icon-social-15707820.png);
+}
+.icons > a{
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
 }
 .icons{
     display: flex;
